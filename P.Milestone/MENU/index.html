@@ -4,6 +4,7 @@
 <html>
 <head>
 <style>
+
 body{
   background-color:white;
 }
@@ -72,12 +73,81 @@ li.dropdown {
       <a href="#">Calçados</a>
     </div>
   </li>
-  <li><a href="#Minha conta">Minha conta</a></li>
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Minha conta</a>
+    <div class="dropdown-content">
+      <a href="#">minha conta</a>
+      <a href="#">criar conta</a>
+     
   <li><a href="#sacola">sacola</a></li>
 </ul>
 
 <h1>MILESTONE MODA MASCULINA</h1>
-<img src="img_D:\1.DOWLOAD" alt="dicas-de-moda-masculina" width="460" height="345">
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  @keyframes changeColor {
+    0% { color: rgb(0, 225, 255); }
+    33% { color: rgb(255, 0, 217); }
+    66% { color: rgb(5, 9, 5); }
+    100% { color: rgb(0, 255, 98); }
+  }
+
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+
+  .bar {
+    background-color: #224e2a;
+    padding: 10px 100px;
+    display: inline-block;
+    animation: blink 2s infinite;
+  }
+
+  .text {
+    display: inline-block;
+    color: white;
+    animation: changeColor 2s infinite;
+  }
+</style>
+</head>
+<body>
+
+<div class="bar">
+  <h1 class="text">promoções</h1>
+</div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .image-container {
+    display: flex; /* Use flexbox para alinhar os itens lado a lado */
+  }
+
+  .image-container img {
+    margin-right: 10px; /* Adicione margem à direita para separar as imagens */
+  }
+</style>
+</head>
+<body>
+
+<div class="image-container">
+  <img src="94.png" alt="94.png" width="240" height="180">
+  <img src="calsa.jpg" alt="calsa.jpg" width="240" height="180">
+  <img src="fashion.png" alt="fashion.png" width="240" height="180">
+  <img src="sapato.png" alt="sapato.png" width="240" height="180">
+</div>
+
+</body>
+</html>
+
 
 </body>
 </html>
